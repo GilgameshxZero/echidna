@@ -19,9 +19,11 @@ int main(int argc, char *argv[]) {
 
 # `h1` should see spacing before
 
-and `h1` and `h2` headings can be subtitled by prepending a `div`.
+and `h1` and `h2` headings can be subtitled by prepending a `div`. However, h1s are given subtitles by default in snapshots.
 
-## next, we’ll observe these curly quotes
+<div class="next-subtitled"></div>
+
+## next, we’ll‘ observe these “curly quotes”
 
 a subtitle, Aug. 24, 2021
 
@@ -83,3 +85,28 @@ Here is a test of the [snapshot interlinking framework](test).
 The details!
 Note that wrapped markdown also works: $f(x)=x$, as long as it is preceded by a blank line. Unfortunately this means that markdown in summaries is difficult.
 </details>
+
+# Fonts
+
+A short font comparison.
+
+<span class="kaiti">敏捷的棕色狐狸跳过了那只懒狗。[fangsong, kaiti]</span>
+<span class="kaiti">*敏捷的棕色狐狸跳过了那只懒狗。[fangsong, kaiti]*</span>
+<span class="kaiti">**敏捷的棕色狐狸跳过了那只懒狗。[fangsong, kaiti]**</span>
+<span class="latin-modern-roman-10">The quick brown fox jumps over the lazy dog. [serif, latin-modern-roman-10]</span>
+<span class="latin-modern-roman-10">*The quick brown fox jumps over the lazy dog. [serif, latin-modern-roman-10]*</span>
+<span class="latin-modern-roman-10">**The quick brown fox jumps over the lazy dog. [serif, latin-modern-roman-10]**</span>
+<span class="eb-garamond">The quick brown fox jumps over the lazy dog. [eb-garamond]</span>
+<span class="eb-garamond">*The quick brown fox jumps over the lazy dog. [eb-garamond]*</span>
+<span class="eb-garamond">**The quick brown fox jumps over the lazy dog. [eb-garamond]**</span>
+<span class="roboto">The quick brown fox jumps over the lazy dog. [sans-serif, roboto]</span>
+<span class="roboto">*The quick brown fox jumps over the lazy dog. [sans-serif, roboto]*</span>
+<span class="roboto">**The quick brown fox jumps over the lazy dog. [sans-serif, roboto]**</span>
+<span class="consolas">The quick brown fox jumps over the lazy dog. [monospace, consolas]</span>
+<span class="consolas">*The quick brown fox jumps over the lazy dog. [monospace, consolas]*</span>
+<span class="consolas">**The quick brown fox jumps over the lazy dog. [monospace, consolas]**</span>
+<span class="tangerine">The quick brown fox jumps over the lazy dog. [cursive, tangerine]</span>
+<span class="tangerine">*The quick brown fox jumps over the lazy dog. [cursive, tangerine]*</span>
+<span class="tangerine">**The quick brown fox jumps over the lazy dog. [cursive, tangerine]**</span>
+
+Some fonts have custom `size-adjust`s defined. You may observe them in `fonts.css`.
