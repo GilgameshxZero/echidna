@@ -1,8 +1,0 @@
-{
-	"markdown.styles": [".vscode/default.css"],
-
-	"[markdown]": {
-		"editor.fontFamily": "'EB Garamond', Georgia, serif",
-		"editor.wordWrap": "bounded"
-	}
-}
