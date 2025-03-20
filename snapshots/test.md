@@ -4,7 +4,7 @@
 test test-2 monochrome
 emilia-snapshot-properties -->
 
-*This page showcases some typography options available in `silver` which is deployed with all snapshot-like media. Observe [this link to the repo]<https://github.com/GilgameshxZero/silver> for further commentary.*
+*This page showcases some typography options available in `silver` which is deployed with all snapshot-like media. Observe [this link to the repo](https://github.com/GilgameshxZero/silver) for further commentary.*
 
 Snapshots are essays, deployed to emilia. They are tagged by a list of space-separated tags, then marked by a title and date, all in an HTML comment, ideally near the top of the file.
 
