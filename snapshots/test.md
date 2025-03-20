@@ -1,10 +1,10 @@
 <!-- emilia-snapshot-properties
-`silver` showcase test page
-2022/12/18
+`silver` showcase
+2025/03/20
 test test-2 monochrome
 emilia-snapshot-properties -->
 
-*This page showcases some typography options available in `silver` which is deployed with all snapshot-like media.*
+*This page showcases some typography options available in `silver` which is deployed with all snapshot-like media. Observe [this link to the repo]<https://github.com/GilgameshxZero/silver> for further commentary.*
 
 Snapshots are essays, deployed to emilia. They are tagged by a list of space-separated tags, then marked by a title and date, all in an HTML comment, ideally near the top of the file.
 
@@ -41,7 +41,7 @@ and tables:
 ### Smaller titles
 
 <video src="test.md-assets/emilia.webm" autoplay loop muted></video>
-*Another caption.*
+*Another caption, this time on a `webm` with some $\LaTeX$.*
 
 The CSS supports dark/light themes in VSCode webview preview. Upon printing to HTML, light/dark theme is set by system preference instead. This preference-dependence should be overwritten for purely light/dark themed websites.
 
