@@ -41,7 +41,7 @@ and tables:
 ### Smaller titles
 
 <video src="test.md-assets/emilia.webm" autoplay loop muted></video>
-*Another caption, this time on a `webm` with some $\LaTeX$.*
+*<i>Another caption, this time on a `webm` with some $\LaTeX$, manually italicized.</i>*
 
 The CSS supports dark/light themes in VSCode webview preview. Upon printing to HTML, light/dark theme is set by system preference instead. This preference-dependence should be overwritten for purely light/dark themed websites.
 
@@ -69,6 +69,12 @@ Lists and details/summary should be highlight to distinguish them from regular t
 2. order number 2
 
 > blockquotes should render fine. Consider how much spacing there should be around it.
+>
+> > a nested blockquote
+> >
+> > ```ts
+> > console.log(`hello-world!`);
+> > ```
 
 ###### Many more styling options exist. Check out `markdown.css` for more.
 
