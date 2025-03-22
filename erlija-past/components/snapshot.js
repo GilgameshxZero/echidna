@@ -28,6 +28,11 @@ registerComponent(
 				});
 			});
 
+			// Remove any theme toggles.
+			this.shadowRoot.querySelectorAll(`input.silver-theme-toggle[type="checkbox"]`).forEach((toggle) => {
+				toggle.remove();
+			});
+
 			// Set click handlers for both icons to go back to timeline.
 			icons.forEach((icon) => {
 				icon.addEventListener(`click`, () => {
