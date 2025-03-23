@@ -9,7 +9,7 @@ registerComponent(
 	`erlija-past`,
 	class extends HTMLElement {
 		onDomLoad() {
-			// Snapshots are fake subcomponentLoaded immediately, but again when the snapshot path is set. The firts subcomponentLoad is for the two icons.
+			// Snapshots are fake subcomponentLoaded immediately, but again when the snapshot path is set. The first subcomponentLoad is for the two icons.
 			const icons = [...this.shadowRoot.querySelectorAll(`emilia-icon`)];
 			this.subcomponentLoad = new Promise((resolve) => {
 				Promise.all([
@@ -26,11 +26,6 @@ registerComponent(
 						resolve();
 					});
 				});
-			});
-
-			// Remove any theme toggles.
-			this.shadowRoot.querySelectorAll(`input.silver-theme-toggle[type="checkbox"]`).forEach((toggle) => {
-				toggle.remove();
 			});
 
 			// Set click handlers for both icons to go back to timeline.
@@ -80,6 +75,13 @@ registerComponent(
 							table.parentNode.insertBefore(wrapper, table);
 							wrapper.appendChild(table);
 						});
+
+						// Remove any theme toggles.
+						this.shadowRoot
+							.querySelectorAll(`input.silver-theme-toggle[type="checkbox"]`)
+							.forEach((toggle) => {
+								toggle.remove();
+							});
 
 						// Update URL. Remove .html extension.
 						document.title = `${name} | erlija`;
