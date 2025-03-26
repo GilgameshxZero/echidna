@@ -37,14 +37,16 @@ a {
 	color: hsl(var(--hsl-base-5));
 }
 
-emilia-icon {
+emilia-icon,
+emilia-noscript {
 	background-color: transparent;
 	opacity: var(--alpha-icon-ready);
 	transition: opacity var(--transition-time);
 	box-shadow: none;
 }
 
-emilia-icon:hover {
+emilia-icon:hover,
+emilia-noscript:hover {
 	background-color: transparent;
 	opacity: 1;
 }
