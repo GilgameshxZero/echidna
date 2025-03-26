@@ -1,10 +1,10 @@
 <!-- emilia-snapshot-properties
 `silver` showcase
 2025/03/20
-test test-2 monochrome
+monochrome test test-2
 emilia-snapshot-properties -->
 
-<input type="checkbox" class="silver-theme-toggle" enabled />
+<!-- <input type="checkbox" class="silver-theme-toggle" enabled /> -->
 
 *This page showcases some typography options available in `silver` which is deployed with all snapshot-like media. Observe [this link to the repo](https://github.com/GilgameshxZero/silver) for further commentary.*
 
@@ -43,14 +43,14 @@ forme|<pre><code>multi-line code blocks must be<br/>wrapped with HTML pre -> cod
 *and now*|<blockquote>**a demonstration of images**<br/>test</blockquote>
 <code>multi-line<br/>inline code</code>|$\LaTeX$<br/>$\begin{aligned}\text{can}&=\text{be put}\\\text{over}&=f(x^\text{multiple lines})\end{aligned}$<br/><br/>but will require inline HTML<br/><span class="katex-display">$f(x)=x^2-x+h$</span>As you may observe, `display`-style $\KaTeX$ may be used by wrapping the $\KaTeX$ syntax in a `span` element with class `katex-display`. Surely there is a way to add `tag`s too, but I have not yet figured it out.
 
-![](test.md-assets/2021-08-24-14-16-53.jpg)
+![](test.md-assets/2021-08-24-14-16-53.jpg#large)
 *This should not be italicized, but styled as a caption.*
 
 ### Smaller titles
 
 In some browsers, `autoplay` on a `video` element triggers fullscreen on a mobile device. We should be wary of this and only enable `autoplay` if this behavior is always desired, or case for mobile.
 
-<video src="test.md-assets/emilia.webm" autoplay loop muted></video>
+<video src="test.md-assets/emilia.webm#large" autoplay loop muted></video>
 *<i>Another caption, this time on a `webm` with some $\LaTeX$, manually italicized. Auto-italicization is easier when the italicization occurs not at the boundaries of the caption.</i>*
 
 The CSS supports dark/light themes in VSCode webview preview. Upon printing to HTML, light/dark theme is set by system preference instead. This preference-dependence should be overwritten for purely light/dark themed websites.
