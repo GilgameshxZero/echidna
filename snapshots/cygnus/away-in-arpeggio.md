@@ -4,6 +4,8 @@ Away in Arpeggio
 cygnus
 emilia-snapshot-properties -->
 
+<link rel="stylesheet" href="../../silver/selective/font.eb-garmond.css">
+
 # Away in Arpeggio
 
 Autumn, 2021
@@ -12,7 +14,7 @@ Autumn, 2021
 Gone, and you were
 away in arpeggio, sliding down
 from the tower, a shadow sliced in two;
-still, it was inevitability: dawn, 
+still, it was inevitability: dawn,
 the rising sun thereafter, the glass of fragmented memory, and the rainbow of the gods
 as they delivered to me: you,
 creation of moons past.
