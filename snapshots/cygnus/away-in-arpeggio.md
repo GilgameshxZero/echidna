@@ -4,7 +4,7 @@ Away in Arpeggio
 cygnus
 emilia-snapshot-properties -->
 
-<link rel="stylesheet" href="../../silver/selective/font.eb-garmond.css">
+<link rel="stylesheet" href="../../silver/selective/font.eb-garamond.css">
 
 # Away in Arpeggio
 
