@@ -4,6 +4,8 @@ On the First Night of November
 cygnus
 emilia-snapshot-properties -->
 
+<link rel="stylesheet" href="../../silver/selective/font.eb-garamond.css">
+
 Polished dark oak swings open upon well-lubricated hinges. Amidst perfumes of alstroemeria wistful of the sunglow of summers past, he enters, tired but focused eyes peering through crow's feet and once-luscious hair. He is a man without need for introductions.
 
 ---

@@ -4,6 +4,8 @@ sunglow, like a first date in forever
 cygnus
 emilia-snapshot-properties -->
 
+<link rel="stylesheet" href="../../silver/selective/font.eb-garamond.css">
+
 # sunglow, like a first date in forever
 
 September 20, 2020

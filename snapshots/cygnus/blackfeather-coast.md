@@ -4,6 +4,8 @@ Blackfeather Coast
 cygnus
 emilia-snapshot-properties -->
 
+<link rel="stylesheet" href="../../silver/selective/font.eb-garamond.css">
+
 Father,
 
 I know no songs written of hunger.
