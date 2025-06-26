@@ -4,6 +4,8 @@ See, It Wasn’t Always Like This
 cygnus
 emilia-snapshot-properties -->
 
+<link rel="stylesheet" href="../../silver/selective/font.eb-garamond.css">
+
 # See, It Wasn’t Always Like This
 
 November 29, 2021

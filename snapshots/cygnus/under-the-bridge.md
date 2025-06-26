@@ -4,6 +4,8 @@ Under the Bridge
 cygnus
 emilia-snapshot-properties -->
 
+<link rel="stylesheet" href="../../silver/selective/font.eb-garamond.css">
+
 # Under the Bridge
 
 Spring, 2021

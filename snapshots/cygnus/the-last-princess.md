@@ -4,6 +4,8 @@ The Last Princess
 cygnus
 emilia-snapshot-properties -->
 
+<link rel="stylesheet" href="../../silver/selective/font.eb-garamond.css">
+
 `14635.930482`
 
 A bronze incandescence pierces through solitude.

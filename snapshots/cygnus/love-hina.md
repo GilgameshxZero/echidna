@@ -4,6 +4,8 @@ Love, Hina
 cygnus
 emilia-snapshot-properties -->
 
+<link rel="stylesheet" href="../../silver/selective/font.eb-garamond.css">
+
 # Love, Hina
 
 Gilgamesh
