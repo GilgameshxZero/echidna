@@ -43,10 +43,11 @@ $$P(x)=(1-\lambda)^{x-1}\lambda.$$
 
 It is self-evident that the mean should be $1/\lambda$. The variance is not easy to compute, but is $(1-\lambda)/\lambda^2$, and is had by separating $E[X^2]=E[X(X-1)]+E[X]$.
 
-**Exponential**: Dropping the geometric assumption earlier, how many minutes will pass before the next customer arrives?
+**Exponential**: Dropping the discrete assumption earlier, how many minutes will pass before the next customer arrives?
 
-The Exponential distribution is simply the continuous analogue of the geometric. Should we divide a minute into $n$ moments, we would expect $\lambda/n$ customers per moment. Alternatively, with large enough $n$, we expect a customer with probability $\lambda/n$.
-For $x$ minutes to pass before the next customer arrives, then, we would see $xn$ moments with no customer and a final moment with a customer:
+The Exponential distribution is simply the continuous analogue of the geometric. Should we divide a minute into $n$ periods, we would expect $\lambda/n$ customers per period. We take $n$ to infinity.
+
+For $x$ minutes to pass before the next customer arrives, then, we would see $xn$ periods with no customer and a final period with a customer:
 
 $$P(x)\approx \lim_{n\to\infty}(1-\lambda/n)^{xn}(\lambda/n)\propto e^{-\lambda x},$$
 
