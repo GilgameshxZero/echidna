@@ -5,6 +5,7 @@ monochrome test test-2
 emilia-snapshot-properties -->
 
 <!-- <input type="checkbox" class="silver-theme-toggle" enabled /> -->
+<!-- <link rel="stylesheet" href="/silver/selective/high_contrast.css" /> -->
 
 *This page showcases some typography options available in `silver` which is deployed with all snapshot-like media. Observe [this link to the repo](https://github.com/GilgameshxZero/silver) for further commentary.*
 
